@@ -1,0 +1,19 @@
+{
+  "name": "fazt-web-nodejs-y-msql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch ./src/app.js"
+  },
+  "keywords": [],
+  "author": "Yuliam Dario Rivera",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.3.0"
+  }
+}
