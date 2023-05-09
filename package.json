@@ -6,8 +6,8 @@
   "type": "module",
 
   "scripts": {
-    "start": "node app.js",
-    "dev": "node --watch ./src/app.js"
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
   },
   "keywords": [],
   "author": "Yuliam Dario Rivera",
