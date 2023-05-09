@@ -1,5 +1,5 @@
 import { createConnection } from 'mysql2/promise';
-import { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } from './config';
+import { DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER } from './config.js';
 
 export const getConnectionDb = async () => {
   const connection = await createConnection({
